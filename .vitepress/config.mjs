@@ -8,6 +8,10 @@ export default defineConfig({
   // 忽略文件名检查（防止因为文件名包含特殊字符报错）
   ignoreDeadLinks: true,
 
+  vite: {
+    assetsInclude: ['**/*.PNG', '**/*.JPG', '**/*.JPEG']
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     
