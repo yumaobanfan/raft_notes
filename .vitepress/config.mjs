@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/raft_notes/', 
   title: "分布式系统学习笔记",
   description: "Raft 算法与 MIT 6.824 实现",
   
