@@ -77,7 +77,7 @@ export default defineConfig({
 
     // 社交链接（可选）
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yourname/your-repo' }
+     { icon: 'github', link: 'https://github.com/yumaobanfan/raft_notes' }
     ],
     
     // 开启本地搜索
